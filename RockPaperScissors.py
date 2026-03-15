@@ -17,10 +17,12 @@ def play():
 
     elif is_win(user, computer):
         print("you won!")
+        return True
 
     else:
         print("you lose")
 
 
 while True:
-    play()
+    if play():
+        break
