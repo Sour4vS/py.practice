@@ -22,12 +22,12 @@ while True:
 
     if guess == random_number:
         print("correct")
-
         break
-    else:
-        if guess>random_number:
+    elif guess>random_number:
             print("you guessed above the number")
-        else:
+    else:
             print("you guessed below the number ")
 
 print(f"random no is:{random_number}")
+
+
